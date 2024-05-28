@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import data from './data'
-import './styles.css'
+import '../styles/styles.css'
 
 // single selection
 // multiple selection
@@ -30,7 +30,7 @@ export default function Accordion() {
 
     console.log(selected, multiple)
     return (
-        <div className='wrapper'>
+        <div className='wrapper Accordion'>
             <button onClick={() => setEnableMutli(!enableMutli)}>
                 Enable Multiselection
             </button>

@@ -1,0 +1,76 @@
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px ;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Accordion-------- */
+.Accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+}
+
+.accordion{
+    width: 50%;
+}
+
+.Accordion .item {
+    background-color: steelblue;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 4px ;
+}
+
+.Accordion .title{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Accordion .answer{
+    color: white;
+    height: auto;
+}
+
+.Accordion button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: slategray;
+    color: white;
+    border: 0;
+    border-radius: 4px ;
+}
+
+/* Random Colour -------------- */
+
+.RandomColour{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.RandomColour .buttonBox{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.RandomColour button{
+    display: inline;
+}
+.RandomColour .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    color:#fff;
+    margin-top: 50px
+}
