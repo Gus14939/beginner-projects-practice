@@ -2,6 +2,8 @@
 import './App.css';
 import Accordion from './accordion/Accordion';
 import RandomColour from './randomColour/RandomColour';
+import StarRating from './starRating/StarRating';
+import ImageSlider from './imageSlider/ImageSlider';
 
 function App() {
   return (
@@ -11,6 +13,10 @@ function App() {
       <Accordion />
       {/* Random colour component */}
       <RandomColour />
+      {/* Star Rating component */}
+      <StarRating numOfStars={10} />
+      {/* Image Slider component */}
+      <ImageSlider />
     </div>
   );
 }
