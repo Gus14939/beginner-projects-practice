@@ -16,7 +16,11 @@ function App() {
       {/* Star Rating component */}
       <StarRating numOfStars={10} />
       {/* Image Slider component */}
-      <ImageSlider />
+      <ImageSlider 
+        url={'https://picsum.photos/v2/list'}
+        limit={"10"}
+        page={"1"}
+       />
     </div>
   );
 }
